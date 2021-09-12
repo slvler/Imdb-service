@@ -235,7 +235,191 @@ print_r($Runtime_M);
 ?>
 ```
 
+#### Locations ():
 
+Locations:
+
+```php
+<?php
+
+$imdb = new ImdbCurl("https://www.imdb.com/title/tt0068646/");
+$Locations = $imdb->Locations();
+print_r($Locations);
+
+?>
+```
+
+#### Certification ():
+
+Certification:
+
+```php
+<?php
+
+$imdb = new ImdbCurl("https://www.imdb.com/title/tt0068646/");
+$Certification = $imdb->Certification();
+print_r($Certification);
+
+?>
+```
+
+#### Plot Summary ():
+
+Plot Summary:
+
+```php
+<?php
+
+$imdb = new ImdbCurl("https://www.imdb.com/title/tt0068646/");
+$Plot_Summary = $imdb->Plot_Summary();
+print_r($Plot_Summary);
+
+?>
+```
+
+#### Plot Keywords ():
+
+Plot Keywords:
+
+```php
+<?php
+
+$imdb = new ImdbCurl("https://www.imdb.com/title/tt0068646/");
+$Plot_Keywords = $imdb->Plot_Keywords();
+print_r($Plot_Keywords);
+
+?>
+```
+
+
+#### Taglines ():
+
+Taglines:
+
+```php
+<?php
+
+$imdb = new ImdbCurl("https://www.imdb.com/title/tt0068646/");
+$Taglines = $imdb->Taglines();
+print_r($Taglines);
+
+?>
+```
+
+#### Genres ():
+
+Genres:
+
+```php
+<?php
+
+$imdb = new ImdbCurl("https://www.imdb.com/title/tt0068646/");
+$Genres = $imdb->Genres();
+print_r($Genres);
+
+?>
+```
+
+#### Sound Mix ():
+
+Sound Mix:
+
+```php
+<?php
+
+$imdb = new ImdbCurl("https://www.imdb.com/title/tt0068646/");
+$Sound_Mix = $imdb->Sound_Mix();
+print_r($Sound_Mix);
+
+?>
+```
+
+#### Movie Connections ():
+
+Movie Connections:
+
+```php
+<?php
+
+$imdb = new ImdbCurl("https://www.imdb.com/title/tt0068646/");
+$Movie_Connections = $imdb->Movie_Connections();
+print_r($Movie_Connections);
+
+?>
+```
+
+#### Soundtracks ():
+
+Soundtracks:
+
+```php
+<?php
+
+$imdb = new ImdbCurl("https://www.imdb.com/title/tt0068646/");
+$Soundtracks = $imdb->Soundtracks();
+print_r($Soundtracks);
+
+?>
+```
+
+#### Crazy Credits ():
+
+Crazy Credits:
+
+```php
+<?php
+
+$imdb = new ImdbCurl("https://www.imdb.com/title/tt0068646/");
+$Crazy_Credits = $imdb->Crazy_Credits();
+print_r($Crazy_Credits);
+
+?>
+```
+
+#### Quotes ():
+
+Quotes:
+
+```php
+<?php
+
+$imdb = new ImdbCurl("https://www.imdb.com/title/tt0068646/");
+$Quotes = $imdb->Quotes();
+print_r($Quotes);
+
+?>
+```
+
+#### Poster ():
+
+Poster:
+
+```php
+<?php
+
+$imdb = new ImdbCurl("https://www.imdb.com/title/tt0068646/");
+$Poster = $imdb->Poster();
+print_r($Poster);
+
+?>
+```
+
+
+#### Media ($uri):
+
+Media:
+
+```php
+<?php
+
+$uri = "https://www.imdb.com/title/tt0068646/mediaviewer/rm1703430656/";
+
+$imdb = new ImdbCurl();
+$media = $imdb->Media($uri);
+print_r($media);
+
+?>
+```
 
 
 
