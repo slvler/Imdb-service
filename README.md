@@ -92,6 +92,7 @@ $Awards = $imdb->Awards();
 print_r($Awards);
 
 ?>
+```
 
 #### Director ():
 
@@ -105,6 +106,7 @@ $Director = $imdb->Director();
 print_r($Director);
 
 ?>
+```
 
 #### Writers ():
 
@@ -118,6 +120,7 @@ $Writers = $imdb->Writers();
 print_r($Writers);
 
 ?>
+```
 
 #### Stars ():
 
@@ -131,6 +134,7 @@ $Stars = $imdb->Stars();
 print_r($Stars);
 
 ?>
+```
 
 #### Budget ():
 
@@ -144,6 +148,7 @@ $Budget = $imdb->Budget();
 print_r($Budget);
 
 ?>
+```
 
 #### Country ():
 
@@ -157,6 +162,7 @@ $Country = $imdb->Country();
 print_r($Country);
 
 ?>
+```
 
 
 #### Language ():
@@ -171,6 +177,7 @@ $Language = $imdb->Language();
 print_r($Language);
 
 ?>
+```
 
 #### Color ():
 
@@ -184,6 +191,7 @@ $Color = $imdb->Color();
 print_r($Color);
 
 ?>
+```
 
 #### Aspect Ratio ():
 
@@ -197,6 +205,7 @@ $Aspect_Ratio = $imdb->Aspect_Ratio();
 print_r($Aspect_Ratio);
 
 ?>
+```
 
 #### Official Sites ():
 
@@ -210,6 +219,7 @@ $Official_Sites = $imdb->Official_Sites();
 print_r($Official_Sites);
 
 ?>
+```
 
 #### Runtime ():
 
@@ -223,6 +233,7 @@ $Runtime_M = $imdb->Runtime_M();
 print_r($Runtime_M);
 
 ?>
+```
 
 
 
