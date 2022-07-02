@@ -4,6 +4,19 @@ Connecting to imdb.com with curl and data extraction process
 
 
 
+#### Config
+
+------------
+
+```php
+Composer
+composer require qwerty/php-imdb-qwerty
+
+```
+
+
+
+
 Initialize
 ------------
 ```php
