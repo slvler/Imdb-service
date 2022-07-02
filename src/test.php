@@ -29,49 +29,26 @@ $director = $a->Director();
 $writers = $a->Writers();
 $stars = $a->Stars();
 $budget = $a->Budget();
+
 $country = $a->Country();
 $lang = $a->Language();
-
 $color = $a->Color();
-
 $aspect = $a->Aspect_Ratio();
-
 $offical = $a->Official_Sites();
-
 $runtime = $a->Runtime_M();
-
 $locations = $a->Locations();
-
 $certificion = $a->Certification();
-
 $plot_summery = $a->Plot_Summary();
-
 $plot_keywords = $a->Plot_Keywords();
-
 $taglines = $a->Taglines();
-
 $genres = $a->Genres();
-
 $sound_mix = $a->Sound_Mix();
-
 $Movie_Connections = $a->Movie_Connections();
-
 $Soundtracks = $a->Soundtracks();
-
 $Crazy_Credist = $a->Crazy_Credits();
-
 $Quotes = $a->Quotes();
-
-
-
-
-
 $Poster = $a->Poster();
-
-
 $Cast = $a->Cast();
-
-
 $awards = $a->Poster();
 
 */
