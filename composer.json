@@ -1,0 +1,18 @@
+{
+    "name": "qwerty/php-imdb-qwerty",
+    "description": "Imdb curl service",
+    "license": "MIT",
+    "authors": [{
+      "name": "Qwerty",
+      "email": "qwerty@qwerty.com"
+    }],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "qwerty\\ImdbCurl\\": "src/"
+        }
+    }
+}

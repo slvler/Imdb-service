@@ -1,14 +1,22 @@
 <?php
 
-use \qwerty\ImdbCurl as ImdbCurl;
 
+//include "ImdbCurl.php";
 
-require_once "autoload.php";
+require __DIR__ . '/../vendor/autoload.php';
+
 
 
 $empty = "https://www.imdb.com/title/tt1056017/releaseinfo";
 
-$a = new ImdbCurl("https://www.imdb.com/title/tt0068646/");
+$veri = new qwerty\ImdbCurl\ImdbCurl("https://www.imdb.com/title/tt0068646/");
+
+
+$media = $veri->All();
+
+print_r($media);
+
+//$a = new deneme\ImdbCurl("https://www.imdb.com/title/tt0068646/");
 
 /*
 $all = $a->All();
@@ -67,7 +75,7 @@ $Cast = $a->Cast();
 $awards = $a->Poster();
 
 */
-$uri = "https://www.imdb.com/title/tt0068646/mediaviewer/rm1703430656/";
-$media = $a->Media($uri);
+//$uri = "https://www.imdb.com/title/tt0068646/mediaviewer/rm1703430656/";
+//$media = $a->Media($uri);
 
-print_r($media);
+//print_r($media);
