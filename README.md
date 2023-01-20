@@ -19,7 +19,7 @@ Connecting to imdb.com with curl and data extraction process
 
 ```php
 Composer
-composer require qwerty/php-imdb-qwerty
+composer require slvler/Imdb-service
 
 ```
 

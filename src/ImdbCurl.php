@@ -1,7 +1,7 @@
 <?php
 
 
-namespace qwerty\ImdbCurl;
+namespace slvler\Imdb;
 
 class ImdbCurl extends ImdbConnection {
 
