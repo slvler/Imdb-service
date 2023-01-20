@@ -13,13 +13,11 @@ Connecting to imdb.com with curl and data extraction process
 
 
 
-#### Config
+#### Composer
 
-------------
+```bash
 
-```php
-Composer
-composer require slvler/Imdb-service
+composer require slvler/imdb-service
 
 ```
 
