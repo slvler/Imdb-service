@@ -1,8 +1,6 @@
 <?php
 
-
-
-namespace qwerty\ImdbCurl;
+namespace slvler\Imdb;
 
 abstract class ImdbConnection implements ImdbConnectionSchema{
 

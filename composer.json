@@ -1,18 +1,31 @@
 {
-    "name": "qwerty/php-imdb-qwerty",
-    "description": "Imdb curl service",
+    "name": "slvler/imdb-service",
     "license": "MIT",
-    "authors": [{
-      "name": "Qwerty",
-      "email": "qwerty@qwerty.com"
-    }],
-    "require": {
-        "php": "^7.4 || ^8.0",
-        "phpunit/phpunit": "^9.5"
-    },
+    "description": "IMDB.com api service for php",
+    "type": "package",
+    "authors": [
+        {
+            "name": "slvler",
+            "email": "slvler@proton.me"
+        }
+    ],
     "autoload": {
         "psr-4": {
-            "qwerty\\ImdbCurl\\": "src/"
+            "slvler\\Imdb\\": "src/"
         }
-    }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "slvler\\Imdb\\Tests\\": "tests/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit tests"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }

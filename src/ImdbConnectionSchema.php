@@ -1,7 +1,6 @@
 <?php
 
-
-namespace qwerty\ImdbCurl;
+namespace slvler\Imdb;
 
 Interface  ImdbConnectionSchema{
 
