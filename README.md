@@ -1,11 +1,10 @@
-# 
+# slvler - Imdb Service
 
-## PHP-IMDB-qwerty
-[![Latest Stable Version](http://poser.pugx.org/qwerty/php-imdb-qwerty/v)](https://packagist.org/packages/qwerty/php-imdb-qwerty)
-[![Latest Unstable Version](http://poser.pugx.org/qwerty/php-imdb-qwerty/v/unstable)](https://packagist.org/packages/qwerty/php-imdb-qwerty)
-[![License](http://poser.pugx.org/qwerty/php-imdb-qwerty/license)](https://packagist.org/packages/qwerty/php-imdb-qwerty)
-[![PHP Version Require](http://poser.pugx.org/qwerty/php-imdb-qwerty/require/php)](https://packagist.org/packages/qwerty/php-imdb-qwerty)
 
+[![tests](https://github.com/slvler/Imdb-service/actions/workflows/tests.yml/badge.svg)](https://github.com/slvler/Imdb-service/actions/workflows/tests.yml)
+[![Latest Stable Version](http://poser.pugx.org/slvler/imdb-service/v)](https://packagist.org/packages/slvler/imdb-service)
+[![Latest Unstable Version](http://poser.pugx.org/slvler/imdb-service/v/unstable)](https://packagist.org/packages/slvler/imdb-service)
+[![License](http://poser.pugx.org/slvler/imdb-service/license)](https://packagist.org/packages/slvler/imdb-service)
 
 
 
